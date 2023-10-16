@@ -1,0 +1,155 @@
+---
+# Project information
+site_name: Davide Airaghi
+#site_url: 
+site_author: Davide Airaghi
+site_description: Davide Airaghi personal website
+copyright: Made with ♥ by Davide Airaghi with mkdocs
+
+# Repository
+repo_url: https://github.com/airaghidavide/personal-website
+repo_name: airaghidavide/personal-website
+edit_uri: edit/main/docs
+
+# Page tree
+nav:
+    - Home:
+          - index.md
+    - Resume:
+          - resume.md
+    - Publications:
+          - publications.md
+    - Projects:
+          - Airtag analysis: projects/airtag_analysis.md
+          - Employee churn: projects/employee_churn.md
+          - Financial inclusion: projects/financial_inclusion.md
+          - Twitter profiling: projects/twitter_user_profiling.md
+
+# Configuration
+theme:
+    name: material
+    docs_dir: docs
+    site_dir: site
+    include_search_page: false
+    search_index_only: true
+    features:
+        - announce.dismiss
+        - content.action.edit
+        - content.action.view
+        - content.code.annotate
+        - content.code.copy
+        - content.tooltips
+        - header.autohide
+        - navigation.footer
+        - navigation.indexes
+        - navigation.top
+        - navigation.tracking
+        - navigation.path
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - search.suggest
+        - search.highlight
+        - search.share
+        - toc.follow
+    font:
+        text: Roboto
+        code: Roboto mono
+    palette:
+      # Light mode
+        - scheme: default
+          primary: green
+          accent: green
+          toggle:
+              icon: material/toggle-switch
+              name: Switch to dark mode
+      # Dark mode
+        - scheme: slate
+          primary: green
+          accent: green
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: Switch to light mode
+markdown_extensions:
+    - abbr
+    - admonition
+    - attr_list
+    - codehilite
+    - def_list
+    - footnotes
+    - meta
+    - md_in_html
+    - pymdownx.emoji:
+          emoji_index: !%21python/name:material.extensions.emoji.twemoji
+          emoji_generator: !%21python/name:material.extensions.emoji.to_svg
+    - toc:
+          title: On this page
+          permalink: true
+          permalink_title: Anchor link to this section for reference
+    - pymdownx.arithmatex:
+          generic: true
+    - pymdownx.betterem:
+          smart_enable: all
+    - pymdownx.caret
+    - pymdownx.details
+    - pymdownx.highlight:
+          anchor_linenums: true
+          line_spans: __span
+          pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.magiclink:
+          repo_url_shorthand: true
+          user: pythonbiellagroup
+          repo: website
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.tabbed:
+          alternate_style: true
+    - pymdownx.tasklist:
+          custom_checkbox: true
+    - pymdownx.tilde
+
+plugins:
+    - macros
+    - minify:
+          minify_html: true
+          minify_js: true
+          minify_css: true
+          htmlmin_opts:
+              remove_comments: true
+    - search:
+          separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+    - git-revision-date-localized
+    - rss:
+          match_path: blog/posts/.*
+          date_from_meta:
+              as_creation: date
+          categories:
+              - categories
+              - tags
+
+#Extra material theme settings
+extra:
+    consent:
+        title: Cookie consent
+        description: >-
+            We use cookies to recognize your repeated visits and preferences, as well
+            as to measure the effectiveness of our site and whether users
+            find what they're searching for. With your consent, you're helping us to
+            make our site better.
+    disqus: PythonBiellaGroup
+    annotate:
+        json: [.s2]
+    generator: false
+    social:
+        - icon: fontawesome/solid/paper-plane
+          link: mailto:airaghi.davide@gmail.com
+          name: Write to us
+        - icon: fontawesome/brands/github
+          link: https://github.com/airaghidavide
+        - icon: fontawesome/brands/linkedin
+          link: https://www.linkedin.com/in/airaghidavide/
+          name: Linkedin
+        - icon: fontawesome/brands/instagram
+          link: https://www.instagram.com/airaghi.davide/
+          name: Instagram
