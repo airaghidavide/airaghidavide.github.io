@@ -1,25 +1,40 @@
 ---
-name: deploy-website
+name: Deploy Website
+
 on:
     push:
         branches:
-            - main
-permissions:
-    contents: write
+            - develop
+
 jobs:
     deploy:
         runs-on: ubuntu-latest
+
         steps:
-            - uses: actions/checkout@v4
-            - uses: actions/setup-python@v4
+            - name: Checkout code
+              uses: actions/checkout
+
+            - name: Set up Python
+              uses: actions/setup-python@v2
               with:
                   python-version: 3.x
-            - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-            - uses: actions/cache@v3
+            - name: Install Poetry
+              run: |
+                  curl -sSL https://install.python-poetry.org | python -
+              shell: bash
+            - name: Verify Poetry installation
+              run: poetry --version
+            - name: Cache MkDocs dependencies
+              run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+            - name: Restore MkDocs cache
+              uses: actions/cache@v2
               with:
-                  key: mkdocs-material-${{ env.cache_id }}
                   path: .cache
-                  restore-keys: |
-                      mkdocs-material-
-            - run: poetry install
-            - run: mkdocs gh-deploy --force
+                  key: mkdocs-material-${{ env.cache_id }}
+            - name: Install dependencies
+              run: poetry install --only dev --sync
+            - name: Build MkDocs site
+              run: mkdocs build
+            - name: Deploy to GitHub Pages
+              run: mkdocs gh-deploy --force
+
