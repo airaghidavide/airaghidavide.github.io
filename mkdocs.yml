@@ -1,14 +1,14 @@
 ---
 # Project information
 site_name: Davide Airaghi
-#site_url: 
+site_url: https://airaghidavide.github.io
 site_author: Davide Airaghi
 site_description: Davide Airaghi personal website
 copyright: Made with ♥ by Davide Airaghi with mkdocs
 
 # Repository
 repo_url: https://github.com/airaghidavide/personal-website
-repo_name: airaghidavide/personal-website
+repo_name: https://github.com/airaghidavide/airaghidavide.github.io
 edit_uri: edit/main/docs
 
 # Page tree
@@ -64,8 +64,8 @@ theme:
               name: Switch to dark mode
       # Dark mode
         - scheme: slate
-          primary: green
-          accent: green
+          primary: red
+          accent: red
           toggle:
               icon: material/toggle-switch-off-outline
               name: Switch to light mode
@@ -78,9 +78,6 @@ markdown_extensions:
     - footnotes
     - meta
     - md_in_html
-    - pymdownx.emoji:
-          emoji_index: !%21python/name:material.extensions.emoji.twemoji
-          emoji_generator: !%21python/name:material.extensions.emoji.to_svg
     - toc:
           title: On this page
           permalink: true
