@@ -48,6 +48,8 @@ jobs:
               run: poetry run mkdocs build --clean --quiet --config-file mkdocs.yml
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v2
+              with:
+                  path: ./site
     deploy:
         environment:
             name: github-pages
