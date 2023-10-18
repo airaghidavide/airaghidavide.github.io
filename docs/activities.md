@@ -1,8 +1,24 @@
+---
+title: Activities
+tags:
+    - conference
+    - articles
+    - showcase
+---
 
-<iframe src="https://datapane.com/reports/dA6RxrA/my-publications-list/embed/" width="100%" height="540px" style="border: none;"></iframe>
+In this section, you can find all my activities such as conference participation, article writing, and showcases year by year.
+
+```vegalite
+{
+  "schema-url": "assets/charts/publications.json"
+}
+```
 
 | Year | Type | Publications | Link |
 | --- | ----------- | ----------- | ----------- |
+| 2023 | Conference | Codemotion Milan | -- |
+| 2023 | Conference | BiDigital - speaker with PythonBiellaGroup | https://bidigital.it |
+| 2023 | Conference | Pycon IT 2023 | -- |
 | 2022 | Conference | Modern data engineering part 1 | https://youtu.be/ERfWbg6lYgo |
 | 2022 | Conference | Modern data engineering part 2 | https://youtu.be/dWkjj2HxHyI |
 | 2022 | Journal | Sentiment analysis on social media | -- |

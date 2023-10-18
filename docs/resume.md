@@ -1,206 +1,210 @@
+---
+title: Resume
+tags:
+    - resume
+---
 
-## Work experience
+## Work Experience
 
-<h4>01|2023 - present</h4>
-<h3>Hype S.p.A</h3>
-Bank
-<br>Via Sassetti, 32 20127 Milan (Italy)
-<br><a href="https://www.hype.it">www.hype.it</a>
+### Hype S.p.A (01|2023 - Present)
 
-HYPE is the largest challenger bank in Italy, with almost 2 MLN users
+**Bank**<br>
+Via Sassetti, 32, 20127 Milan, Italy<br>
+[www.hype.it](https://www.hype.it)
 
-• Build reliable and performing data pipelines in order to allow decisions based on data always up to date, normalized and high quality standardized
+HYPE is the largest challenger bank in Italy, with almost 2 million users.
 
-• Collect and analyse requirements in order to create a data platform useful and truthful for end users
+- Build reliable and high-performing data pipelines to support data-driven decision-making.
+- Collect and analyze requirements to create a robust and informative data platform.
+- Conduct code reviews and improve development workflows.
+- Collaborate with the Data Science team to build robust ML models.
 
-• Code review and enhancements of the development flow following the best practices
+!!! success "Technologies"
 
-• Work with Data Science team to understands data needs and provide support with the scope of build robust ML model
+    Git · Azure DevOps · Azure DataBricks · Spark · Azure EventHub · Agile Project Management · Sviluppo Oracle SQL · PL/SQL · Azure Data Factory · Python
 
 ---
 
-<h4>03|2022 - 01|2023</h4>
-<h3>Be Shaping the Future</h3>
-IT Consulting
-<br>Via dei Valtorta, 48 20127 Milan (Italy)
-<br><a href="https://www.be-tse.it">www.be-tse.it</a>
+### Be Shaping the Future (03|2022 - 01|2023)
 
-<h5>03|2022 - 01|2023</h5>
-<h4>Senior Data Engineer</h4>
-Build a machine learning model to find out the customers (segment Retail) that are about to quit the company by monitoring cards usage in order to avoid customer churn and implement specific actions.
-In addition to this we develop a customer segmentation model with analysis and NLP techniques.
+**IT Consulting**<br>
+Via dei Valtorta, 48, 20127 Milan, Italy<br>
+[www.be-tse.it](https://www.be-tse.it)
+
+**Senior Data Engineer**
+
+Built a machine learning model to identify potential customer churn by monitoring card usage, implementing actions to retain customers. Also, developed customer segmentation models using analysis and NLP techniques.
+
+!!! success "Technologies"
+
+    Teradata · Machine learning · Python
 
 ---
 
-<h4>02|2019 - 03|2022</h4>
-<h3>Reti S.p.A</h3>
-IT Consulting
-<br>Via Dante, 6 21052 Busto Arsizio (Italy)
-<br><a href="https://www.reti.it/">www.reti.it</a>
+### Reti S.p.A (02|2019 - 03|2022)
 
-<h5>03|2021 - 09|2021</h5>
-<h4>Consultant - LaCisa</h4>
-BI and Analytics
+**IT Consulting**<br>
+Via Dante, 6, 21052 Busto Arsizio, Italy<br>
+[www.reti.it](https://www.reti.it)
 
-The installed sensors on the logistic vehicles send the data during the goods handling of each vehicle. Due to the huge amount of incoming data it's necessary to refactor the dataflow with a scalable solution converting the current ETL process performed in VBA to an automated pipeline in Azure Data Factory.
-<br>
-<br>Technologies: Microsoft SQL Server, Azure Data Factory, VBA, T-SQL
 
-<h5>04|2020 - 03|2022</h5>
-<h4>Consultant - Intesa</h4>
-Data Governance
+**Consultant - LaCisa (03|2021 - 09|2021) - BI and Analytics**
 
-Design of an architecture to perform specific controls with the aim to detect anomalies during the orders placement and financial operations recording. The purpose of the projects is to be compliant with the MIFID 2 regulamentation.
-The entire process is implemented with scheduled Oracle stored procedure built with PL/SQL and the final data is spooled and loaded into QlikSense dashboard to enable the user to analyze all the anomalies occurred during a given date.
-<br>
-<br>Technologies: Oracle 12g, SQL Developer
+The installed sensors on the logistic vehicles send the data during the goods handling of each vehicle. Due to the huge amount of incoming data it's necessary to refactor the dataflow with a scalable solution converting the current ETL process performed in VBA to an automated pipeline with Azure Data Factory.
 
-<h5>02|2019 - 03|2020</h5>
-<h4>Consultant - Allianz Technology</h4>
-Allianz Technology - L/H Actuarial Solutions
+!!! success "Technologies"
+
+    Microsoft SQL Server · Azure Data Factory · Python · VBA · T-SQL
+
+**Consultant - Intesa (04|2020 - 03|2022) - Data Governance**
+
+Design of an architecture to perform specific controls with the aim to detect anomalies during the orders placement and financial operations recording. The purpose of the projects is to be compliant with the MIFID 2 regulamentation. The entire process is implemented with scheduled Oracle stored procedure built with PL/SQL and the final data is spooled and loaded into QlikSense dashboard to enable the user to analyze all the anomalies occurred during a given date.
+
+!!! success "Technologies"
+
+    Microsoft SQL Server · Azure Data Factory · Python · VBA · T-SQL
+
+**Consultant - Allianz Technology (02|2019 - 03|2020) - Allianz Technology - L/H Actuarial Solutions**
 
 Analyze the business logic and developing the calculation part of the actuarial custom product ARGO, support during the UAT step, manage and fix data mismatching and/or bugs.
 Design of the data model and develop all the database objects in charge of performing the calculation using the parameters provided by the user.
-<br>
-<br>Technologies: Oracle 19c, Toad for Oracle, Microsoft Excel
+
+!!! success "Technologies"
+
+    Oracle 19c · Excel · PL/SQL
 
 ---
 
-<h4>11|2016 - 01|2019</h4>
-<h3>Best Solutions S.r.l</h3>
-IT Consulting
+### Best Solutions S.r.l (11|2016 - 01|2019)
 
-Piazza Vigili del Fuoco 11,20134 Milan (Italy)
-<br><a href="https://www.bestsolutions.it/">www.bestsolutions.it</a>
+**IT Consulting**<br>
+Piazza Vigili del Fuoco 11, 20134 Milan, Italy<br>
+[www.bestsolutions.it](https://www.bestsolutions.it)
 
-<h5>07|2018 - 01|2019</h5>
-<h4>Junior Consultant - IQVIA</h4>
-IT Business Intelligence
+**Junior Consultant - IQVIA (07|2018 - 01|2019)**
+
+**IT Business Intelligence**
 
 Develop and mantain ETL data pipeline related to the pharmaceutical market in order to deliver reports thorugh different BI tools like PowerBI,Tableau and custom APP.
-All the data flow are developed with SSIS and standard stored procedure on SQL Server database.
-<br>
-<br>Technologies: SSIS (SQL Server Integration Services), Microsoft SQL Server, Microsoft Excel
+All the data flows are built with SSIS and standard stored procedure on SQL Server database.
 
-<h5>05|2017 - 06|2018</h5>
-<h4>Junior Consultant - CheBanca! S.p.a</h4>
-DWH Area / IT Data Management and Analytics
+!!! success "Technologies"
 
-Analyze and understand the projects requirements, perform analysis related to data mismatching and finding root causes by scanning the whole ETL process, check accuracy and completeness of the data ingested,generate the BI reports required by the business units involved,design data model on Oracle DB and develop PL/SQL objects.
-<br>
-<br>Technologies: Oracle 11g, Toad for Oracle, Oracle Data Integrator, Microsoft Excel
+    SIS (SQL Server Integration Services) · Microsoft SQL Server · Microsoft Excel
 
-<h5>11|2016 - 04|2017</h5>
-<h4>Intern</h4>
-Tha aim of the internship is developing a module of the ERP of the firm concerning the projects management process in order to understand every step of the software lifecycle. 
-<br>
-<br>Technologies: ASP.NET, C#, Microsoft SQL Server
+**Junior Consultant - CheBanca! S.p.a (05|2017 - 06|2018) - DWH Area / IT Data Management and Analytics**
 
----
-<h4>11|2015 - 04|2016</h4>
-<h3>B&W Spig</h3>
-Industrial cooling systems
+Analyze and understand the projects requirements, perform analysis related to data mismatching and finding root causes by scanning the whole ETL process, check accuracy and completeness of the data ingested,generate the BI reports required by the business units involved,develop Oracle data model and PL/SQL objects.
 
-Via Borgomanero 34, 28040 Novara (Italy)
-<br><a href="https://www.babcock.com/it-it/spig">www.babcock.com/it-it/spig</a>
+!!! success "Technologies"
 
-<h4>Curricular Intern</h4>
-During the internship I analyzed many processes in order to seek and map the main causes which generate non quality costs. After that, with the support of the quality management, I identified the concerning KPIs (Key Performance Indicator) to control the entire process in order to realize a KPIs dashboard. I also developed a tool in VB.NET to control and to collect non quality cost and to examine some of the KPIs pinpointed in the first phase. The non quality costs are tracked by a coding tailored system. Lastly the tool has been integrated in SAP.
+    Oracle 11g · Toad for Oracle · Oracle Data Integrator · Microsoft Excel
 
-Technologies: VB NET, Microsoft Excel, Oracle SQL.
+### B&W Spig (11|2015 - 04|2016)
+
+**Industrial Cooling Systems**<br>
+Via Borgomanero 34, 28040 Novara, Italy<br>
+[www.babcock.com/it-it/spig](https://www.babcock.com/it-it/spig)
+
+**Intern (11|2016 - 04|2017)**
+
+The aim of the internship is developing a module of the ERP of the firm concerning the projects management process in order to understand every step of the software lifecycle.
+
+!!! success "Technologies"
+
+    ASP.NET · C# · Microsoft SQL Server
 
 ---
 
 ## Education
 
-<h4>05|2020 - 05|2021</h4>
-<h3>MU1 - Master in Business Intelligence and BigData Analytics</h3>
-University of Milan Bicocca
-<br>Piazza dell'Ateneo Nuovo 1, 20126 Milan (Italy)
-<br><a href="https://www.unimib.it">www.unimib.it</a>
-<br>
-<br>Main topics: SQL,NoSQL,Machine learning,Deep learning,BigData,Business intelligence,Agile project management,Text mining
-<br>
-<br>Project Work: Refactoring of an ETL pipeline concerning data produced by sensors mounted on logistic transports
+### MU1 - Master in Business Intelligence and BigData Analytics (05|2020 - 05|2021)
+**University of Milano Bicocca**<br>
+Piazza dell'Ateneo Nuovo 1, 20126 Milan (Italy)<br>
+[https://www.unimib.it](www.unimib.it)
 
-<h4>09|2012 - 02|2017</h4>
-<h3>Bsc - Bachelor degree in Management and Production Engineering</h3>
-Polytechnic University of Milan
-<br>Piazza Leonardo da Vinci 32, 20133 Milan (Italy)
-<br><a href="https://www.polimi.it">www.polimi.it</a>
-<br>
-<br>Main topics: Mathematical analysis,Computer science,Economics,Operations research,Logistics and production system management,Quality control,Business management and organization
-<br>
-<br>Thesis: Identification of a KPI dashboard and developing of a tool to monitor them
+Main topics: SQL,NoSQL,Machine learning,Deep learning,BigData,Business intelligence,Agile project management,Text mining
 
-<h4>09|2006 - 07|2011</h4>
-<h3>Scientific High School diploma</h3>
-A. Tosi Scientific High School
-<br>Via Grossi Tommaso 3, 21052 Busto Arsizio (Italy)
-<br><a href="https://www.liceotosi.edu.it/">www.liceotosi.edu.it</a>
+!!! example "Project work"
+    
+    Refactoring of an ETL pipeline concerning data produced by sensors mounted on logistic transports.
+
+### Bsc - Bachelor degree in Management and Production Engineering (09|2012 - 02|2017)
+**Politecnico di Milano**<br>
+Piazza Leonardo da Vinci 32, 20133 Milan (Italy)<br>
+[https://www.polimi.it](www.polimi.it)
+
+Main topics: Mathematical analysis,Computer science,Economics,Operations research,Logistics and production system management,Quality control,Business management and organization
+
+!!! example "Thesis"
+    
+    Identification of a KPI dashboard and developing of a tool to monitor them
+
+### Scientific High School diploma (09|2006 - 07|2011)
+**A. Tosi Scientific High School**<br>
+Via Grossi Tommaso 3, 21052 Busto Arsizio (Italy)<br>
+[https://www.liceotosi.edu.it/](www.liceotosi.edu.it)
 
 ---
-## Skills and Knowledge
-<ul>
-<li>Database Management System
-<ul>
-<li>Oracle Database (PL/SQL)</li>
-<li>Microsoft SQL Server(T-SQL)</li>
-</ul></li>
-<li>BI Tools
-<ul>
-<li>Microsoft PowerBI</li>
-<li>Tableau</li>
-<li>RAWGraphs</li>
-<li>Plotly Dash,Seborn,Matplotlib,DataPane</li>
-</ul></li>
-<li>Process modeling and business analysis
-<ul>
-<li>BPMN</li>
-<li>UML</li>
-<li>E-R Diagram</li>
-</ul></li>
-<li>Web Scraping
-<ul>
-<li>Selenium,Beautiful Soup</li>
-<li>Twint,Tweepy</li>
-</ul></li>
-<li>ETL Tools
-<ul>
-<li>Azure Data Factory</li>
-<li>Talend</li>
-<li>Bonobo</li>
-</ul></li>
-<li>Source Management
-<ul>
-<li>GitHub</li>
-</ul></li>
-<li>Data Cleaning,Data Wrangling and Data Science
-<ul>
-<li>OpenRefine</li>
-<li>Pandas,Scikit-Learn,Numpy</li>
-</ul></li>
-<li>Software & Tools
-<ul>
-<li>Microsoft Office(Word,Excel,PowerPoint,Access)</li>
-<li>Toad for Oracle,Oracle SQL Developer,Microsoft SQL Server Management Studio</li>
-<li>Anconda navigator,Jupyter Notebook,Google Colab</li>
-</ul></li>
- 
-<h2>Languages</h2>
- 
+
+## Skills
+
+### Tech stack
+
+::cards::
+
+- title: RDBMS
+  content: Oracle Database · Microsoft SQL Server
+
+- title: BI Tools
+  content: Microsoft PowerBI · Tableau · RAWGraphs · Plotly Dash · Seborn · Matplotlib · DataPane · Streamlit
+
+- title: Process modeling and business analysis
+  content: BPMN · UML · E-R Diagram
+
+- title: Web scraping
+  content: Selenium · Beautiful Soup · tweepy
+
+- title: Orchestration tools
+  content: Azure Data Factory · Talend · Databricks
+
+- title: Source management
+  content: Git · SVN ·  Azure DevOps · Github
+
+- title: Programming languages
+  content: Python · Pyspark · SQL · PL/SQL · T-SQL
+
+- title: CI/CD
+  content: Azure Pipelines · Github Actions
+
+- title: Software and tools
+  content: Microsoft Office · VSCode · Anaconda · Jupyter notebook
+
+::/cards::
+
+### Languages
+
 Italian: mother tongue
-  
+
+
 | Language | Listening | Reading | Speaking | Writing |
-| --- | ----------- | ----------- | ----------- | ----------- |
+| -------- | ----------- | ----------- | ----------- | ----------- |
 | English | C1 | C1 | B2 | B2 |
 
-<li>Certifications:
-<ul>
-<li>DP-203 Azure Data Engineer Associate </li>
-<li>AI-900 Azure AI Fundamentals </li>
- ---
-<li>PET (Preliminary English Test)</li>
-<li>BULATS (Business Language Testing Service)</li>
-<li>TOEIC (Test of English for International Communication)</li>
-</ul></li>
+### Certifications
+
+#### Tech
+
+| Code | Description |
+| ----| -------------- |
+| DP-203 | Azure Data Engineer Associate | 
+| AI-900 | Azure AI Fundamentals |
+| DBKS-Academy | Databricks Lakehouse Fundamentals|
+
+#### English
+
+| Code | Description |
+| ----| -------------- |
+| PET | Preliminary English Test |
+| BULATS | Business Language Testing Service |
+| TOEIC | Test of English for International Communication|

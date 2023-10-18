@@ -1,0 +1,123 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "Link": "--",
+        "Publications": "Codemotion Milan",
+        "Type": "Conference",
+        "Year": "2023"
+      },
+      {
+        "Link": "https://bidigital.it",
+        "Publications": "BiDigital - speaker with PythonBiellaGroup",
+        "Type": "Conference",
+        "Year": "2023"
+      },
+      {
+        "Link": "--",
+        "Publications": "Pycon IT 2023",
+        "Type": "Conference",
+        "Year": "2023"
+      },
+      {
+        "Link": "https://youtu.be/ERfWbg6lYgo",
+        "Publications": "Modern data engineering part 1",
+        "Type": "Conference",
+        "Year": "2022"
+      },
+      {
+        "Link": "https://youtu.be/dWkjj2HxHyI",
+        "Publications": "Modern data engineering part 2",
+        "Type": "Conference",
+        "Year": "2022"
+      },
+      {
+        "Link": "--",
+        "Publications": "Sentiment analysis on social media",
+        "Type": "Journal",
+        "Year": "2022"
+      },
+      {
+        "Link": "--",
+        "Publications": "Data quality tool (Great Expectations) for @Hype",
+        "Type": "Showcase",
+        "Year": "2022"
+      },
+      {
+        "Link": "https://youtu.be/2MB0O9ETLd8",
+        "Publications": "PythonBiellaGroup closing year conference",
+        "Type": "Conference",
+        "Year": "2022"
+      },
+      {
+        "Link": "https://bidigital.it",
+        "Publications": "BiDigital - speaker",
+        "Type": "Conference",
+        "Year": "2022"
+      },
+      {
+        "Link": "--",
+        "Publications": "Refactoring of an ETL pipeline concerning data produced by sensors mounted on logistic machines",
+        "Type": "Master thesis",
+        "Year": "2021"
+      },
+      {
+        "Link": "https://youtu.be/4RoCMuSYhD4",
+        "Publications": "Web scraping on social media and sentiment analysis",
+        "Type": "Conference",
+        "Year": "2021"
+      },
+      {
+        "Link": "https://github.com/airaghidavide/employee-churn-classifier",
+        "Publications": "ML employee churn prediction @Reti S.p.a",
+        "Type": "Showcase",
+        "Year": "2020"
+      },
+      {
+        "Link": "--",
+        "Publications": "Identification of a KPI dashboard and developing of a tool to monitor them",
+        "Type": "Bachelor thesis",
+        "Year": "2016"
+      }
+    ]
+  },
+  "encoding": {
+    "color": {
+      "field": "Type",
+      "scale": {
+        "domain": [
+          "Conference",
+          "Master thesis",
+          "Showcase",
+          "Journal",
+          "Bachelor thesis"
+        ],
+        "range": [
+          "#0ed6bd",
+          "#f5f65d",
+          "#aec7e8",
+          "#0da5ce",
+          "#065c72"
+        ]
+      },
+      "title": "",
+      "type": "nominal"
+    },
+    "tooltip": {
+      "field": "Publications",
+      "type": "nominal"
+    },
+    "x": {
+      "field": "Year",
+      "timeUnit": "year",
+      "title": "Year",
+      "type": "ordinal"
+    },
+    "y": {
+      "aggregate": "count",
+      "type": "quantitative"
+    }
+  },
+  "mark": "bar"
+}

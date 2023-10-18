@@ -1,6 +1,7 @@
 ---
-title: "Financial Inclusion classifier - Streamlit App"
-date: 2021-06-02T22:29:05-05:00
+title: Financial inclusion
+tags:
+    - project
 ---
 
 ![Cover](/img/fin_incl.png)
