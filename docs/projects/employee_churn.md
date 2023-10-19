@@ -1,6 +1,7 @@
 ---
-title: "Business pitch - Employee churn prediction for Reti S.p.a"
-date: 2021-06-23T22:29:05-05:00
+title: Employee churn
+tags:
+    - project
 ---
 
 ![Cover](/img/churn_cover.jpg)

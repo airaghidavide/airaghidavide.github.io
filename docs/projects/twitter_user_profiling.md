@@ -1,6 +1,7 @@
 ---
-title: "Twitter user profiling"
-date: 2022-01-03T22:29:05-05:00
+title: Twitter user profiling
+tags:
+    - project
 ---
 
 ## Objective

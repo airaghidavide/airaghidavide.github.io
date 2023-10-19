@@ -1,6 +1,7 @@
 ---
-title: "AirTag - Twitter sentiment analysis"
-date: 2021-12-20T22:29:05-05:00
+title: Sentiment analysis - AirTag
+tags:
+    - project
 ---
 
 ![Cover](/img/airtag.png)

@@ -17,9 +17,10 @@ nav:
           - index.md
     - Resume:
           - resume.md
-    - Publications:
-          - publications.md
+    - Activities:
+          - activities.md
     - Projects:
+          - projects/intro.md
           - Airtag analysis: projects/airtag_analysis.md
           - Employee churn: projects/employee_churn.md
           - Financial inclusion: projects/financial_inclusion.md
@@ -60,14 +61,14 @@ theme:
           primary: green
           accent: green
           toggle:
-              icon: material/toggle-switch
+              icon: material/brightness-7
               name: Switch to dark mode
       # Dark mode
         - scheme: slate
           primary: red
           accent: red
           toggle:
-              icon: material/toggle-switch-off-outline
+              icon: material/brightness-4
               name: Switch to light mode
 markdown_extensions:
     - abbr
@@ -77,7 +78,10 @@ markdown_extensions:
     - def_list
     - footnotes
     - meta
+    - tables
     - md_in_html
+    - neoteroi.cards
+    - neoteroi.timeline
     - toc:
           title: On this page
           permalink: true
@@ -96,8 +100,8 @@ markdown_extensions:
     - pymdownx.keys
     - pymdownx.magiclink:
           repo_url_shorthand: true
-          user: pythonbiellagroup
-          repo: website
+          user: airaghidavide
+          repo: airaghidavide.github.io
     - pymdownx.mark
     - pymdownx.smartsymbols
     - pymdownx.tabbed:
@@ -105,9 +109,24 @@ markdown_extensions:
     - pymdownx.tasklist:
           custom_checkbox: true
     - pymdownx.tilde
+    - pymdownx.superfences:
+          custom_fences:
+              - name: vegalite
+                class: vegalite
+                format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
+extra_css:
+    - css/neoteroi-mkdocs.css
+
+extra_javascript:
+    - https://cdn.jsdelivr.net/npm/vega@5
+    - https://cdn.jsdelivr.net/npm/vega-lite@5
+    - https://cdn.jsdelivr.net/npm/vega-embed@6
 
 plugins:
     - macros
+    - charts
+    - tags
+    - mkdocs-jupyter
     - minify:
           minify_html: true
           minify_js: true
@@ -117,24 +136,15 @@ plugins:
     - search:
           separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
     - git-revision-date-localized
-    - rss:
-          match_path: blog/posts/.*
-          date_from_meta:
-              as_creation: date
-          categories:
-              - categories
-              - tags
 
-#Extra material theme settings
 extra:
     consent:
         title: Cookie consent
         description: >-
-            We use cookies to recognize your repeated visits and preferences, as well
-            as to measure the effectiveness of our site and whether users
-            find what they're searching for. With your consent, you're helping us to
+            I use cookies to recognize your repeated visits and preferences, as well
+            as to measure the effectiveness of my site and whether users
+            find what they're searching for. With your consent, you're helping me to
             make our site better.
-    disqus: PythonBiellaGroup
     annotate:
         json: [.s2]
     generator: false
