@@ -126,7 +126,6 @@ plugins:
     - macros
     - charts
     - tags
-    - mkdocs-jupyter
     - minify:
           minify_html: true
           minify_js: true

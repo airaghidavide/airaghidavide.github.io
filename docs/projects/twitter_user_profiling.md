@@ -5,6 +5,9 @@ tags:
 ---
 
 ## Objective
+
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/airaghidavide/twitter-user-report)
+
 The purpose of the project is to provide a quick overview about the activity and the engagement related to a twitter profile. The account analyzed is related to the italian politician Matteo Salvini because his profile is placed among the most active Twitter profiles in Italy.
 
 Here's the pipeline
