@@ -8,10 +8,12 @@ tags:
     - home
 ---
 
-# Hello!
+# 👋 Hello!
 
-<div id="header" align="center">
-  <img src="./img/me.png" width="300"/>
-</div>
+::cards:: cols=1
 
-Hi! I’m Davide Airaghi, a BI and Data Engineer with several years of professional experiences and successful projects among different contexts and customers.
+- title: Davide Airaghi
+  content: Hi! I’m Davide Airaghi, a BI and Data Engineer with several years of professional experiences and successful projects among different contexts and customers.
+  image: ./img/me.png
+
+::/cards::

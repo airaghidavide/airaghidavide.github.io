@@ -6,6 +6,8 @@ tags:
 
 ![Cover](/img/churn_cover.jpg)
 
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](hhttps://github.com/airaghidavide/employee-churn-classifier)
+
 ### Context
 Employee churn is a costly problem for companies. The true cost of replacing an employee can often be quite large.
 A study by the Center for American Progress found that companies typically pay about one-fifth of an employee’s salary to replace that employee, and the cost can significantly increase if executives or highest-paid employees are to be replaced.

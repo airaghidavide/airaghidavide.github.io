@@ -6,6 +6,8 @@ tags:
 
 ![Cover](/img/airtag.png)
 
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/airaghidavide/airtag-sentiment-analysis)
+
 ## Context
 Sentiment Analysis, or Opinion Mining, is a sub-field of Natural Language Processing (NLP) that tries to identify and extract opinions within a given text
 The aim of sentiment analysis is to gauge sentiments, evaluations, attitudes and emotions of a speaker/writer based on the computational treatment of subjectivity in a text.
