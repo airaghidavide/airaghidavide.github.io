@@ -36,7 +36,3 @@ The machine learning model experiment is developed on a sythetic dataset and the
 
 * Python
 * Jupyter Notebook
-
-### Model Explainability
-
-![Shap](../img/shap_plot.png)

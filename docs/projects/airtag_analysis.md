@@ -4,8 +4,6 @@ tags:
     - project
 ---
 
-![Cover](../img/airtag.png)
-
 [![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/airaghidavide/airtag-sentiment-analysis)
 
 ## Context
@@ -49,6 +47,4 @@ Here's the pipeline
 ## Results
 ### DataPane
 
-[Link to the datapane_report](https://datapane.com/u/airaghidavide/reports/O7vxBpA/apple-airtag-sentiment-analysis/)
-
-![Report](../img/sentiment_datapane.png)
+[Link to the report](https://datapane.com/u/airaghidavide/reports/O7vxBpA/apple-airtag-sentiment-analysis/)
