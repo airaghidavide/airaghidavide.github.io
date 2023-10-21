@@ -4,7 +4,7 @@ tags:
     - project
 ---
 
-![Cover](/img/churn_cover.jpg)
+![Cover](../img/churn_cover.jpg)
 
 [![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](hhttps://github.com/airaghidavide/employee-churn-classifier)
 
@@ -39,4 +39,4 @@ The machine learning model experiment is developed on a sythetic dataset and the
 
 ### Model Explainability
 
-![Shap](/img/shap_plot.png)
+![Shap](../img/shap_plot.png)
