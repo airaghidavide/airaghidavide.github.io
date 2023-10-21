@@ -14,7 +14,13 @@ Here's the pipeline
 
 ## Pipeline
 
-![pipeline](../img/pipeline_user_twitter.png)
+``` mermaid
+graph LR
+  A[Start] --> B[Twitter scraping with twint];
+  B -->C[Transformations with Pandas and pdpipe];
+  C -->D[Data viz with seaborn and plotly];
+  D -->E[Reporting with DataPane];
+```
 
 ## Methods Used
 
@@ -48,7 +54,3 @@ Here's the pipeline
 ## Results
 ### DataPane
 [Link to the the report](https://datapane.com/u/airaghidavide/reports/M7bQbw3/twitter-profile-report-matteo-salvini/)
-
-![tables_tweets](../img/tables_tweets.png)
-![engagement](../img/engagement.png)
-![heatmap](../img/heatmap.png)
