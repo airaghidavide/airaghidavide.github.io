@@ -14,7 +14,7 @@ Here's the pipeline
 
 ## Pipeline
 
-![pipeline](/img/pipeline_user_twitter.PNG)
+![pipeline](../img/pipeline_user_twitter.png)
 
 ## Methods Used
 
@@ -49,6 +49,6 @@ Here's the pipeline
 ### DataPane
 [Link to the the report](https://datapane.com/u/airaghidavide/reports/M7bQbw3/twitter-profile-report-matteo-salvini/)
 
-![tables_tweets](/img/tables_tweets.PNG)
-![engagement](/img/engagement.PNG)
-![heatmap](/img/heatmap.PNG)
+![tables_tweets](../img/tables_tweets.png)
+![engagement](../img/engagement.png)
+![heatmap](../img/heatmap.png)

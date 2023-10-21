@@ -7,8 +7,8 @@ site_description: Davide Airaghi personal website
 copyright: Made with ♥ by Davide Airaghi with mkdocs
 
 # Repository
-repo_url: https://github.com/airaghidavide/personal-website
-repo_name: https://github.com/airaghidavide/airaghidavide.github.io
+repo_url: https://github.com/airaghidavide/airaghidavide.github.io
+repo_name: airaghidavide/airaghidavide.github.io
 edit_uri: edit/main/docs
 
 # Page tree
@@ -31,6 +31,8 @@ theme:
     name: material
     docs_dir: docs
     site_dir: site
+    icon:
+      repo: fontawesome/brands/github
     include_search_page: false
     search_index_only: true
     features:

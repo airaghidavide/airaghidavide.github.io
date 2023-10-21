@@ -4,7 +4,7 @@ tags:
     - project
 ---
 
-![Cover](/img/fin_incl.png)
+![Cover](../img/fin_incl.png)
 
 [![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/airaghidavide/financial-inclusion-app)
 
@@ -38,4 +38,4 @@ Once the best model has been validated, it has been saved and used by the web ap
 
 [Link to the App](https://share.streamlit.io/airaghidavide/financial_inclusion-app/main/financial_inclusion_app.py)
 
-![App](/img/app_inclusion.gif)
+![App](../img/app_inclusion.gif)
