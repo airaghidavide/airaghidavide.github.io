@@ -200,6 +200,7 @@ Italian: mother tongue
 | DP-203 | Azure Data Engineer Associate | 
 | AI-900 | Azure AI Fundamentals |
 | DBKS-Academy | Databricks Lakehouse Fundamentals|
+| PSM-1 | Professional Scrum Master |
 
 #### English
 
