@@ -16,6 +16,7 @@ In this section, you can find all my activities such as conference participation
 
 | Year | Type | Publications | Link |
 | --- | ----------- | ----------- | ----------- |
+| 2024 | Conference | Py4Ai | https://www.py4ai.com/ |
 | 2023 | Conference | Codemotion Milan | -- |
 | 2023 | Conference | BiDigital - speaker with PythonBiellaGroup | https://bidigital.it |
 | 2023 | Conference | Pycon IT 2023 | -- |

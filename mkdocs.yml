@@ -19,12 +19,6 @@ nav:
           - resume.md
     - Activities:
           - activities.md
-    - Projects:
-          - projects/intro.md
-          - Airtag analysis: projects/airtag_analysis.md
-          - Employee churn: projects/employee_churn.md
-          - Financial inclusion: projects/financial_inclusion.md
-          - Twitter profiling: projects/twitter_user_profiling.md
 
 # Configuration
 theme:
@@ -60,8 +54,8 @@ theme:
     palette:
       # Light mode
         - scheme: default
-          primary: green
-          accent: green
+          primary: teal
+          accent: teal
           toggle:
               icon: material/brightness-7
               name: Switch to dark mode

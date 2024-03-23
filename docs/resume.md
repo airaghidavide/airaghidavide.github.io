@@ -197,6 +197,7 @@ Italian: mother tongue
 
 | Code | Description |
 | ----| -------------- |
+| PL-300 | Microsoft PowerBI Analyst |
 | DP-203 | Azure Data Engineer Associate | 
 | AI-900 | Azure AI Fundamentals |
 | DBKS-Academy | Databricks Lakehouse Fundamentals|
