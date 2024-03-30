@@ -9,6 +9,18 @@
         "Year": "2024"
       },
       {
+        "Link": "https://www.youtube.com/live/mbT5xptiYOo?si=JP1NSMxcnkaogKhp",
+        "Publications": "Costruiamo un sito con MkDocs e Python! Parte 2",
+        "Type": "Showcase",
+        "Year": "2024"
+      },
+      {
+        "Link": "https://www.youtube.com/live/BeWo2xe-uvM?si=lizCj8QaFbo0DUpf",
+        "Publications": "Costruiamo un sito con MkDocs e Python! Parte 1",
+        "Type": "Showcase",
+        "Year": "2024"
+      },
+      {
         "Link": "https://bidigital.it",
         "Publications": "BiDigital - speaker with PythonBiellaGroup",
         "Type": "Conference",
@@ -23,13 +35,13 @@
       {
         "Link": "https://youtu.be/ERfWbg6lYgo",
         "Publications": "Modern data engineering part 1",
-        "Type": "Conference",
+        "Type": "Showcase",
         "Year": "2022"
       },
       {
         "Link": "https://youtu.be/dWkjj2HxHyI",
         "Publications": "Modern data engineering part 2",
-        "Type": "Conference",
+        "Type": "Showcase",
         "Year": "2022"
       },
       {
@@ -65,7 +77,7 @@
       {
         "Link": "https://youtu.be/4RoCMuSYhD4",
         "Publications": "Web scraping on social media and sentiment analysis",
-        "Type": "Conference",
+        "Type": "Showcase",
         "Year": "2021"
       },
       {
