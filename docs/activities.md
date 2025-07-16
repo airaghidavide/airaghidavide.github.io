@@ -16,7 +16,6 @@ In this section, you can find all my activities such as conference participation
 
 | Year | Type | Publications | Link |
 | --- | ----------- | ----------- | ----------- |
-
 | 2025 | Conference | Databricks Data Intelligence days (Milan) | https://www.databricks.com/it/lp/data-intelligence-days |
 | 2025 | Conference | AIWeek | https://www.aiweek.it/ |
 | 2024 | Conference | Py4Ai | https://www.py4ai.com/ |
