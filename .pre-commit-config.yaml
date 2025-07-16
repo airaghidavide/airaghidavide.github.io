@@ -4,7 +4,7 @@ default_language_version:
 default_stages: [commit, push]
 repos:
     - repo: https://github.com/pre-commit/pre-commit-hooks
-      rev: v4.5.0
+      rev: v5.0.0
       hooks:
           - id: check-added-large-files # Prevent giant files from being committed
             args: [--maxkb=5000]
@@ -18,3 +18,9 @@ repos:
           - id: pretty-format-json # Checks that all your JSON files are pretty. "Pretty" here means that keys are sorted and indented. You can configure this with the following commandline options
             args: [--autofix]
             exclude: ^.vscode
+    - repo: https://github.com/commitizen-tools/commitizen
+      rev: v4.8.3
+      hooks:
+        - id: commitizen
+        - id: commitizen-branch
+          stages: [pre-push]
