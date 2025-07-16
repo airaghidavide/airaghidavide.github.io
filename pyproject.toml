@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "Personal website"
-version = "0.0.3"
+version = "0.0.4"
 description = "Davide Airaghi personal website"
 authors = [
     "Davide Airaghi <airaghi.davide@gmail.com>"
