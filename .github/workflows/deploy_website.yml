@@ -34,7 +34,7 @@ jobs:
               run: git config --global --add safe.directory /__w/website/website
             - name: Install pre-commit check
               shell: bash
-              run: poetry install --only dev --sync
+              run: poetry install --only dev --no-root
             - name: Run pre-commit check
               shell: bash
               run: poetry run pre-commit run -a
