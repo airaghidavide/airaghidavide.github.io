@@ -3,6 +3,18 @@
   "data": {
     "values": [
       {
+        "Link": "https://www.databricks.com/it/lp/data-intelligence-days",
+        "Publications": "Databricks Data Intelligence days (Milan)",
+        "Type": "Conference",
+        "Year": "2025"
+      },
+      {
+        "Link": "https://www.aiweek.it/",
+        "Publications": "AIWeek",
+        "Type": "Conference",
+        "Year": "2025"
+      },
+      {
         "Link": "https://www.py4ai.com/",
         "Publications": "Py4Ai",
         "Type": "Conference",
