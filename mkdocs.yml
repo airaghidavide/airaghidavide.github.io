@@ -15,8 +15,6 @@ edit_uri: edit/main/docs
 nav:
     - Home:
           - index.md
-    - Resume:
-          - resume.md
     - Activities:
           - activities.md
 
